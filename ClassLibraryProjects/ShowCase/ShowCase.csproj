@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <StartupObject></StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StringLibrary\StringLibrary.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ExampleClassLibrary01">
+      <HintPath>..\..\ClassLibrary\ExampleClassLibrary01\bin\Debug\net5.0\ExampleClassLibrary01.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
